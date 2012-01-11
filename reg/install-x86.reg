@@ -1,7 +1,7 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\10.0\MVC3\ProjectTemplates\ReallyEmptyMvcProjectTemplate]
-"Title"="Really Empty Mvc Project"
+"Title"="Really Empty"
 "Description"="This is the most emptiest MVC 3 project template made ever."
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\10.0\MVC3\ProjectTemplates\ReallyEmptyMvcProjectTemplate\C#]
