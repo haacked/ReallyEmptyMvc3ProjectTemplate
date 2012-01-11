@@ -1,0 +1,14 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\10.0\MVC3\ProjectTemplates\ReallyEmptyMvcProjectTemplate]
+"Title"="Really Empty Mvc Project"
+"Description"="This is the most emptiest MVC 3 project template made ever."
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\10.0\MVC3\ProjectTemplates\ReallyEmptyMvcProjectTemplate\C#]
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\10.0\MVC3\ProjectTemplates\ReallyEmptyMvcProjectTemplate\C#\Razor]
+"Path"="CSharp\\Web"
+"SupportsHTML5"=dword:00000000
+"SupportsUnitTests"=dword:00000000
+"Template"="ReallyEmptyMvcWebApplicationProjectTemplatev3.01.cshtml.zip"
