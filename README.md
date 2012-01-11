@@ -24,7 +24,7 @@ This code is being made available to you under the [MIT license](http://www.open
 Hey, if you'd like to help make this better, consider one of the following. :)
 
 * Make script auto-detect whether VS is running or not and do the right thing.
-* Single install script that detects environment and makes the correct registry settings (perhaps in PowerShell)
+* Test this on an x86 machine
 * Write an installer for this.
 
 # License
