@@ -7,6 +7,7 @@ This is a much emptier project template for ASP.NET MVC 3. The concepts here are
 * Run the `install.cmd` batch file to install the project template. This will run the `Install-ProjectTemplate.ps1` powershell script.
 
 The batch file:
+
 * Creates the project package (a zip file).
 * Copies the file to the correct Visual Studio project templates directory.
 * Adds a registry entry for the project template that ASP.NET MVC 3 picks up. The script handles x86 and x64 cases.
