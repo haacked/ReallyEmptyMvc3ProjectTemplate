@@ -4,14 +4,12 @@ This is a much emptier project template for ASP.NET MVC 3. The concepts here are
 
 # Installation
 * __MAKE SURE ALL INSTANCES OF VISUAL STUDIO ARE CLOSED!__
-* Run the `install.cmd` batch file to install the project template. This will run the `Install-ProjectTemplate.ps1` powershell script.
+* Run the 'build.cmd' batch file to make the VSIX installer for the template.  Then copy that file to your Visual Studio installation and double-click the .vsix file to install.
 
 The batch file:
 
 * Creates the project package (a zip file).
-* Copies the file to the correct Visual Studio project templates directory.
-* Adds a registry entry for the project template that ASP.NET MVC 3 picks up. The script handles x86 and x64 cases.
-* Registers it with Visual Studio using `devenv /installvstemplates`. This can take a while.
+* Packages the template up in the Visual Studio installer extensible package (VSIX).
 
 # DISCLAIMER
 I've tested this on my machine, but not yours. I make no guarantees that it'll work fine. See the license at the end. 
@@ -19,13 +17,7 @@ This code is being made available to you under the [MIT license](http://www.open
 
 # Credits
 * [7-Zip](http://www.7-zip.org/) used to archive the template into a zip file. 
-
-# TODO
-Hey, if you'd like to help make this better, consider one of the following. :)
-
-* Make script auto-detect whether VS is running or not and do the right thing.
-* Test this on an x86 machine
-* Write an installer for this.
+* [Tim Heuer](http://timheuer.com/blog/) or the VSIX installer.
 
 # License
 Copyright (c) 2012 Phil Haack
