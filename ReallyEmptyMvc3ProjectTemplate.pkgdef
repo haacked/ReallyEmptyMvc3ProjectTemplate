@@ -1,0 +1,11 @@
+[$RootKey$\MVC3\ProjectTemplates\ReallyEmptyMvcProjectTemplate]
+"Title"="Really Empty"
+"Description"="This is the most emptiest MVC 3 project template made ever."
+
+[$RootKey$\MVC3\ProjectTemplates\ReallyEmptyMvcProjectTemplate\C#]
+
+[$RootKey$\MVC3\ProjectTemplates\ReallyEmptyMvcProjectTemplate\C#\Razor]
+"Path"="CSharp\\Web"
+"SupportsHTML5"=dword:00000000
+"SupportsUnitTests"=dword:00000000
+"Template"="ReallyEmptyMvcWebApplicationProjectTemplatev3.01.cshtml.zip"

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+  <Identifier Id="ASP.NET_MVC_NUnit.Microsoft.0b3d944f-14d6-4104-a69c-8f872746ba7f">
+    <Name>ReallyEmptyMvc3ProjectTemplate</Name>
+    <Author>Phil Haack</Author>
+    <Version>3.01</Version>
+    <Description xml:space="preserve">This is a much emptier project template for ASP.NET MVC 3.</Description>
+    <Locale>1033</Locale>
+    <License>license.txt</License>
+    <SupportedProducts>
+      <VisualStudio Version="10.0">
+        <Edition>Ultimate</Edition>
+        <Edition>Premium</Edition>
+        <Edition>Pro</Edition>
+      </VisualStudio>
+      <VisualStudio Version="11.0">
+        <Edition>Ultimate</Edition>
+        <Edition>Premium</Edition>
+        <Edition>Pro</Edition>
+      </VisualStudio>
+    </SupportedProducts>
+    <SupportedFrameworkRuntimeEdition MinVersion="2.0" MaxVersion="4.0" />
+  </Identifier>
+  <Content>
+    <VsPackage>ReallyEmptyMvc3ProjectTemplate.pkgdef</VsPackage>
+    <ProjectTemplate>ProjectTemplates</ProjectTemplate>
+  </Content>
+</Vsix>
