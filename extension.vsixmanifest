@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
-  <Identifier Id="ASP.NET_MVC_NUnit.Microsoft.0b3d944f-14d6-4104-a69c-8f872746ba7f">
+  <Identifier Id="ReallyEmptyMvc3.CSharp.A2634C4B-310F-4F57-9690-BDE944C18A8E">
     <Name>ReallyEmptyMvc3ProjectTemplate</Name>
     <Author>Phil Haack</Author>
     <Version>3.01</Version>
