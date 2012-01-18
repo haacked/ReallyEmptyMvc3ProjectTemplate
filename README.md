@@ -17,7 +17,7 @@ This code is being made available to you under the [MIT license](http://www.open
 
 # Credits
 * [7-Zip](http://www.7-zip.org/) used to archive the template into a zip file. 
-* [Tim Heuer](http://timheuer.com/blog/) or the VSIX installer.
+* [Tim Heuer](http://timheuer.com/blog/) for the VSIX installer.
 
 # License
 Copyright (c) 2012 Phil Haack
