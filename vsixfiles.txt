@@ -1,5 +1,5 @@
-ProjectTemplates\CSharp\Web\ReallyEmptyMvc3ProjectTemplate.zip
+ProjectTemplates\CSharp\Web\ReallyEmptyMvc3.zip
 extension.vsixmanifest
 license.txt
-ReallyEmptyMvc3ProjectTemplate.pkgdef
+REMVC3Template.pkgdef
 [Content_Types].xml

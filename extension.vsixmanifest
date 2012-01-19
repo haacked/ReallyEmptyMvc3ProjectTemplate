@@ -24,7 +24,7 @@
     <SupportedFrameworkRuntimeEdition MinVersion="2.0" MaxVersion="4.0" />
   </Identifier>
   <Content>
-    <VsPackage>ReallyEmptyMvc3ProjectTemplate.pkgdef</VsPackage>
+    <VsPackage>REMVC3Template.pkgdef</VsPackage>
     <ProjectTemplate>ProjectTemplates</ProjectTemplate>
   </Content>
 </Vsix>
