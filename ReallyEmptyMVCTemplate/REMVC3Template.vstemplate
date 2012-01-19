@@ -1,0 +1,45 @@
+﻿<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+    <TemplateData>
+        <Name Package="{1F372076-D9CE-432D-BC4F-ABFF39671C5C}" ID="21204"/>
+        <Description Package="{1F372076-D9CE-432D-BC4F-ABFF39671C5C}" ID="21205"/>
+        <Icon Package="{349c5850-65df-11da-9384-00065b846f21}" ID="9001" />
+        <ProjectType>CSharp</ProjectType>
+        <ProjectSubType>Web</ProjectSubType>
+        <TemplateGroupID>Web</TemplateGroupID>
+        <TemplateID>Microsoft.WAP.CSharp.EmptyMVCWebApplication.v301</TemplateID>
+        <SortOrder>51</SortOrder>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>MvcApplication</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <RequiredFrameworkVersion>4.0</RequiredFrameworkVersion>
+        <Hidden>true</Hidden>
+    </TemplateData>
+    <TemplateContent>
+        <CustomParameters>
+            <CustomParameter Name="$language$" Value="C#" />
+            <CustomParameter Name="$languageext$" Value="cs" />
+            <CustomParameter Name="$autoeventwireup$" Value="true" />
+            <CustomParameter Name="$globalclassname$" Value="MvcApplication" />
+            <CustomParameter Name="$sitemasterclassname$" Value="Views.Shared.Site" />
+            <CustomParameter Name="$indexerleft$" Value="[" />
+            <CustomParameter Name="$indexerright$" Value="]" />
+            <CustomParameter Name="$MVCReferences$" Value="System.Web.Mvc.dll"/>
+            <CustomParameter Name="$EmptyMvcProjectTemplate$" Value="true" />
+        </CustomParameters>
+        <Project File="ReallyEmptyMvcApplication.csproj" ReplaceParameters="true">
+            <Folder Name="Controllers" TargetFolderName="Controllers" />
+            <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax.cs">Global.asax.cs</ProjectItem>
+            <Folder Name="Properties" TargetFolderName="Properties">
+                <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+            </Folder>
+            <Folder Name="Views" TargetFolderName="Views">
+                <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+            </Folder>
+            <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+        </Project>
+    </TemplateContent>
+</VSTemplate>
