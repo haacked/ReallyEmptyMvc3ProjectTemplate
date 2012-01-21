@@ -8,4 +8,4 @@
 "Path"="CSharp\\Web"
 "SupportsHTML5"=dword:00000000
 "SupportsUnitTests"=dword:00000000
-"Template"="ReallyEmptyMvc3ProjectTemplate.zip"
+"Template"="ReallyEmptyMvc3.zip"
